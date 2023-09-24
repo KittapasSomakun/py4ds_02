@@ -1,4 +1,4 @@
-from shape import Shape
+from util.shape import Shape
 
 
 class Square(Shape):
@@ -12,4 +12,4 @@ class Square(Shape):
 
     def __str__(self) -> str:
         self.area()
-        return 'Squre Area of 5 U :' + str(self.sqr_area)
+        return 'Squre Area of 5U :' + str(self.sqr_area)

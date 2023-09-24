@@ -1,4 +1,7 @@
-class React:
+from util.shape import Shape
+
+
+class React(Shape):
     def __init__(self, width, height):
         self.rect_area = 0.0
         self.width = width
